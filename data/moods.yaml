@@ -1,0 +1,137 @@
+# ─── ПОЗИТИВНЫЕ ───────────────────────────────────────────────────────────────
+peaceful:
+  en: "peaceful"
+  description: "Calm, serene, undisturbed"
+
+hopeful:
+  en: "hopeful"
+  description: "Optimistic, looking forward"
+
+euphoric:
+  en: "euphoric"
+  description: "Intense joy and elation"
+
+triumphant:
+  en: "triumphant"
+  description: "Victorious, grand sense of achievement"
+
+romantic:
+  en: "romantic"
+  description: "Warm, loving, intimate"
+
+playful:
+  en: "playful"
+  description: "Light-hearted, fun, whimsical"
+
+uplifting:
+  en: "uplifting"
+  description: "Inspiring, emotionally elevating"
+
+joyful:
+  en: "joyful"
+  description: "Bright happiness, celebratory"
+
+# ─── МЕЛАНХОЛИЯ / ЭМОЦИИ ──────────────────────────────────────────────────────
+melancholic:
+  en: "melancholic"
+  description: "Deep reflective sadness, wistful longing"
+
+nostalgic:
+  en: "nostalgic"
+  description: "Sentimental longing for the past"
+
+bittersweet:
+  en: "bittersweet"
+  description: "Simultaneously sad and pleasant"
+
+longing:
+  en: "longing"
+  description: "Deep yearning, aching desire"
+
+heartbroken:
+  en: "heartbroken"
+  description: "Deep emotional pain, loss"
+
+introspective:
+  en: "introspective"
+  description: "Inward-looking, self-reflective"
+
+# ─── ТЁМНЫЕ / НАПРЯЖЁННЫЕ ─────────────────────────────────────────────────────
+dark:
+  en: "dark"
+  description: "Gloomy, shadowy, ominous"
+
+aggressive:
+  en: "aggressive"
+  description: "Forceful, intense, confrontational"
+
+tense:
+  en: "tense"
+  description: "Suspenseful, anxious, on-edge"
+
+haunting:
+  en: "haunting"
+  description: "Eerily memorable, ghostly lingering feeling"
+
+sinister:
+  en: "sinister"
+  description: "Threatening, menacing, foreboding"
+
+apocalyptic:
+  en: "apocalyptic"
+  description: "End-of-world grandeur, catastrophic scale"
+
+# ─── АТМОСФЕРНЫЕ ──────────────────────────────────────────────────────────────
+dreamy:
+  en: "dreamy"
+  description: "Hazy, surreal, floating quality"
+
+ethereal:
+  en: "ethereal"
+  description: "Delicate, otherworldly, weightless"
+
+mysterious:
+  en: "mysterious"
+  description: "Enigmatic, unknown, intriguing"
+
+hypnotic:
+  en: "hypnotic"
+  description: "Trance-inducing, repetitive, mesmerizing"
+
+meditative:
+  en: "meditative"
+  description: "Calm, focused, inward contemplation"
+
+cosmic:
+  en: "cosmic"
+  description: "Vast, spacious, universe-scale wonder"
+
+# ─── ЭНЕРГИЧНЫЕ ───────────────────────────────────────────────────────────────
+energetic:
+  en: "energetic"
+  description: "High-energy, vibrant, active"
+
+epic:
+  en: "epic"
+  description: "Grand, sweeping, larger-than-life"
+
+powerful:
+  en: "powerful"
+  description: "Strong, commanding, authoritative"
+
+urgent:
+  en: "urgent"
+  description: "Pressing, immediate, driven by necessity"
+
+# ─── РАССЛАБЛЕННЫЕ ────────────────────────────────────────────────────────────
+relaxed:
+  en: "relaxed"
+  description: "Easy-going, laid-back, unstressed"
+
+lazy:
+  en: "lazy"
+  description: "Slow, unhurried, languid"
+
+groovy:
+  en: "groovy"
+  description: "Rhythmically satisfying, funky feel"

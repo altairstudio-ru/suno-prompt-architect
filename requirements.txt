@@ -1,0 +1,9 @@
+click>=8.0.0
+pyyaml>=6.0
+
+# Optional — for FastAPI web server:
+# fastapi>=0.110.0
+# uvicorn[standard]>=0.29.0
+
+# Optional — for tests:
+# pytest>=8.0.0

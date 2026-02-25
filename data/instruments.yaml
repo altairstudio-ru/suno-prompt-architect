@@ -1,0 +1,232 @@
+# ─── СТРУННЫЕ ЩИПКОВЫЕ ────────────────────────────────────────────────────────
+guitar_acoustic:
+  en: "acoustic guitar"
+  description: "Warm, natural acoustic guitar"
+
+guitar_electric:
+  en: "electric guitar"
+  description: "Amplified electric guitar"
+
+guitar_classical:
+  en: "classical guitar"
+  description: "Nylon-string classical guitar"
+
+guitar_distorted:
+  en: "distorted guitar"
+  description: "Heavy overdrive/distortion guitar"
+
+guitar_clean:
+  en: "clean electric guitar"
+  description: "Crisp, unprocessed electric guitar"
+
+bass_guitar:
+  en: "bass guitar"
+  description: "Electric bass guitar"
+
+bass_upright:
+  en: "upright bass"
+  description: "Acoustic double bass"
+
+banjo:
+  en: "banjo"
+  description: "American folk/bluegrass banjo"
+
+ukulele:
+  en: "ukulele"
+  description: "Small Hawaiian string instrument"
+
+harp:
+  en: "harp"
+  description: "Concert pedal harp"
+
+# ─── КЛАВИШНЫЕ ────────────────────────────────────────────────────────────────
+piano:
+  en: "piano"
+  description: "Grand or upright acoustic piano"
+
+piano_electric:
+  en: "electric piano"
+  description: "Rhodes or Wurlitzer electric piano"
+
+organ:
+  en: "organ"
+  description: "Hammond or pipe organ"
+
+synthesizer:
+  en: "synthesizer"
+  description: "Analog or digital synthesizer"
+
+synth_pad:
+  en: "synth pad"
+  description: "Soft, sustained synthesizer pad"
+
+synth_lead:
+  en: "synth lead"
+  description: "Cutting melodic synthesizer lead"
+
+synth_bass:
+  en: "synth bass"
+  description: "Electronic synthesizer bass"
+
+808_bass:
+  en: "808 bass"
+  description: "Roland TR-808 sub bass"
+
+harpsichord:
+  en: "harpsichord"
+  description: "Baroque plucked keyboard instrument"
+
+# ─── ДУХОВЫЕ ДЕРЕВЯННЫЕ ───────────────────────────────────────────────────────
+flute:
+  en: "flute"
+  description: "Concert flute"
+
+clarinet:
+  en: "clarinet"
+  description: "Woodwind clarinet"
+
+saxophone:
+  en: "saxophone"
+  description: "Alto, tenor, or soprano saxophone"
+
+oboe:
+  en: "oboe"
+  description: "Double-reed woodwind instrument"
+
+bassoon:
+  en: "bassoon"
+  description: "Low double-reed woodwind"
+
+# ─── ДУХОВЫЕ МЕДНЫЕ ───────────────────────────────────────────────────────────
+trumpet:
+  en: "trumpet"
+  description: "Brass trumpet"
+
+trombone:
+  en: "trombone"
+  description: "Slide trombone"
+
+french_horn:
+  en: "French horn"
+  description: "Orchestral French horn"
+
+tuba:
+  en: "tuba"
+  description: "Low brass tuba"
+
+brass_section:
+  en: "brass section"
+  description: "Full brass ensemble"
+
+# ─── СТРУННЫЕ СМЫЧКОВЫЕ / ОРКЕСТР ────────────────────────────────────────────
+violin:
+  en: "violin"
+  description: "Solo or section violin"
+
+viola:
+  en: "viola"
+  description: "Mid-range bowed string"
+
+cello:
+  en: "cello"
+  description: "Deep bowed string instrument"
+
+strings:
+  en: "strings"
+  description: "Full string section"
+
+orchestral_strings:
+  en: "orchestral strings"
+  description: "Full orchestral string ensemble with lush arrangement"
+
+# ─── УДАРНЫЕ ──────────────────────────────────────────────────────────────────
+drums:
+  en: "drums"
+  description: "Acoustic drum kit"
+
+drums_electronic:
+  en: "electronic drums"
+  description: "Programmed or sampled drum machine"
+
+drum_machine:
+  en: "drum machine"
+  description: "Classic drum machine (808, 909, etc.)"
+
+percussion:
+  en: "percussion"
+  description: "World/ethnic percussion instruments"
+
+marimba:
+  en: "marimba"
+  description: "Resonant wooden mallet percussion"
+
+# ─── ВОКАЛ КАК ИНСТРУМЕНТ ─────────────────────────────────────────────────────
+choir:
+  en: "choir"
+  description: "Full choral ensemble"
+
+vocal_harmonies:
+  en: "vocal harmonies"
+  description: "Layered vocal harmonies"
+
+# ─── ТЕКСТУРНЫЕ / ОСОБЫЕ ─────────────────────────────────────────────────────
+vinyl_crackle:
+  en: "vinyl crackle"
+  description: "Warm analog vinyl noise texture"
+
+tape_hiss:
+  en: "tape hiss"
+  description: "Analog tape saturation texture"
+
+theremin:
+  en: "theremin"
+  description: "Eerie electronic instrument played without touching"
+
+sitar:
+  en: "sitar"
+  description: "Indian classical plucked string instrument"
+
+didgeridoo:
+  en: "didgeridoo"
+  description: "Australian Aboriginal wind instrument"
+
+steel_drums:
+  en: "steel drums"
+  description: "Caribbean pan steel percussion"
+
+# ─── ЭЛЕКТРОННЫЕ / СИНТЕЗАТОРНЫЕ ─────────────────────────────────────────────
+analog_synths:
+  en: "analog synths"
+  description: "Warm, characteristic analog synthesizer tones"
+  family: "electronic"
+  priority: "high"
+
+arpeggiator:
+  en: "arpeggiator"
+  description: "Sequenced arpeggiated synthesizer pattern"
+  family: "electronic"
+  priority: "mid"
+
+moog_bass:
+  en: "moog bass"
+  description: "Deep, rich Moog synthesizer bass line"
+  family: "electronic"
+  priority: "high"
+
+gated_drums:
+  en: "gated drums"
+  description: "80s-style drums with aggressive gated reverb effect"
+  family: "electronic"
+  priority: "mid"
+
+sequencer:
+  en: "sequencer"
+  description: "Step-sequenced melodic or rhythmic pattern"
+  family: "electronic"
+  priority: "mid"
+
+808_kick:
+  en: "808 kick"
+  description: "Roland TR-808 punchy sub-heavy kick drum"
+  family: "electronic"
+  priority: "high"

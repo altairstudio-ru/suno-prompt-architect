@@ -1,0 +1,274 @@
+# ─── ЭЛЕКТРОНИКА ──────────────────────────────────────────────────────────────
+ambient:
+  en: "ambient"
+  description: "Atmospheric, textural soundscapes"
+
+synthwave:
+  en: "synthwave"
+  description: "80s-inspired electronic with analog synths"
+
+darksynth:
+  en: "darksynth"
+  description: "Dark, aggressive synthwave with industrial tones"
+
+retrowave:
+  en: "retrowave"
+  description: "Nostalgic 80s pop-electronic style"
+
+vaporwave:
+  en: "vaporwave"
+  description: "Slowed, chopped 80s/90s pop with surreal aesthetics"
+
+chillwave:
+  en: "chillwave"
+  description: "Lo-fi indie electronic with dreamy textures"
+
+electronic:
+  en: "electronic"
+  description: "Broad umbrella electronic music"
+
+house:
+  en: "house"
+  description: "4/4 kick-driven electronic dance music"
+
+deep_house:
+  en: "deep house"
+  description: "Soulful, bass-heavy house with jazzy chords"
+
+tech_house:
+  en: "tech house"
+  description: "Minimal groove-driven hybrid of techno and house"
+
+techno:
+  en: "techno"
+  description: "Industrial, repetitive electronic dance"
+
+trance:
+  en: "trance"
+  description: "Melodic, high-energy electronic with euphoric builds"
+
+psytrance:
+  en: "psytrance"
+  description: "Psychedelic trance with rapid arpeggios and hypnotic patterns"
+
+dnb:
+  en: "drum and bass"
+  description: "Fast breakbeats (160–180 BPM) with heavy bass"
+
+liquid_dnb:
+  en: "liquid drum and bass"
+  description: "Smooth, melodic drum and bass with soulful tones"
+
+dubstep:
+  en: "dubstep"
+  description: "Heavy wobble bass with half-time rhythms"
+
+future_bass:
+  en: "future bass"
+  description: "Bright supersaws, emotional chord stabs, festival EDM"
+
+edm:
+  en: "EDM"
+  description: "Mainstream electronic dance music with big drops"
+
+idm:
+  en: "IDM"
+  description: "Intelligent dance music — complex, experimental rhythms"
+
+downtempo:
+  en: "downtempo"
+  description: "Slow, atmospheric electronic with trip-hop influences"
+
+trip_hop:
+  en: "trip hop"
+  description: "Dark, cinematic hip hop beats with jazzy samples"
+
+lo_fi:
+  en: "lo-fi hip hop"
+  description: "Relaxed hip hop with vinyl crackle and tape warmth"
+
+# ─── РОК ──────────────────────────────────────────────────────────────────────
+rock:
+  en: "rock"
+  description: "Classic electric guitar-driven rock"
+
+indie:
+  en: "indie rock"
+  description: "Independent alternative rock with DIY aesthetic"
+
+alternative:
+  en: "alternative rock"
+  description: "Post-mainstream rock, 90s-influenced"
+
+post_rock:
+  en: "post-rock"
+  description: "Instrumental rock with dynamic crescendos and cinematic arcs"
+
+shoegaze:
+  en: "shoegaze"
+  description: "Wall of distorted guitar sound with ethereal dreamy vocals"
+
+dream_pop:
+  en: "dream pop"
+  description: "Hazy, reverb-drenched melodic pop-rock"
+
+math_rock:
+  en: "math rock"
+  description: "Complex odd-time signatures, angular guitar riffs"
+
+prog_rock:
+  en: "progressive rock"
+  description: "Complex arrangements, extended compositions, concept albums"
+
+punk:
+  en: "punk rock"
+  description: "Fast, raw, three-chord minimalist rock"
+
+metal:
+  en: "heavy metal"
+  description: "Aggressive guitar-driven rock with power chords"
+
+metalcore:
+  en: "metalcore"
+  description: "Blend of metal and hardcore punk with breakdowns"
+
+post_metal:
+  en: "post-metal"
+  description: "Slow-building, atmospheric heavy music"
+
+black_metal:
+  en: "black metal"
+  description: "Tremolo riffs, blast beats, raw production"
+
+doom_metal:
+  en: "doom metal"
+  description: "Slow, heavy, melancholic metal"
+
+blues:
+  en: "blues"
+  description: "12-bar blues with expressive guitar and soul"
+
+blues_rock:
+  en: "blues rock"
+  description: "Electric blues with rock energy"
+
+grunge:
+  en: "grunge"
+  description: "Distorted guitars, angst-driven 90s Seattle sound"
+
+# ─── ПОП ──────────────────────────────────────────────────────────────────────
+pop:
+  en: "pop"
+  description: "Mainstream melodic pop"
+
+synth_pop:
+  en: "synth-pop"
+  description: "Electronic pop driven by synthesizers, 80s roots"
+
+indie_pop:
+  en: "indie pop"
+  description: "Catchy, melodic pop with indie production sensibility"
+
+dark_pop:
+  en: "dark pop"
+  description: "Moody, cinematic pop with minor-key melodies"
+
+electropop:
+  en: "electropop"
+  description: "Modern electronic pop with polished production"
+
+# ─── ДЖАЗ ─────────────────────────────────────────────────────────────────────
+jazz:
+  en: "jazz"
+  description: "Improvisational acoustic/electric jazz"
+
+smooth_jazz:
+  en: "smooth jazz"
+  description: "Relaxed, radio-friendly jazz fusion"
+
+jazz_fusion:
+  en: "jazz fusion"
+  description: "Jazz combined with rock, funk, and electronic elements"
+
+bebop:
+  en: "bebop"
+  description: "Fast, complex, virtuosic jazz from the 1940s"
+
+nu_jazz:
+  en: "nu jazz"
+  description: "Modern jazz blending electronic and hip hop elements"
+
+# ─── САУНДТРЕКИ / ОРКЕСТР ─────────────────────────────────────────────────────
+cinematic:
+  en: "cinematic"
+  description: "Epic, orchestral film-score style music"
+
+classical:
+  en: "classical orchestral"
+  description: "Traditional orchestral composition"
+
+neoclassical:
+  en: "neoclassical"
+  description: "Contemporary classical with minimalist and modern influences"
+
+orchestral:
+  en: "orchestral"
+  description: "Full orchestral arrangements"
+
+epic_orchestral:
+  en: "epic orchestral"
+  description: "Massive, dramatic orchestral with choir and heavy brass"
+
+# ─── ХИП-ХОП / R&B ────────────────────────────────────────────────────────────
+hip_hop:
+  en: "hip hop"
+  description: "Rhythmic beats with rap and sampling tradition"
+
+trap:
+  en: "trap"
+  description: "Southern hip hop with 808 drums and hi-hat rolls"
+
+rnb:
+  en: "R&B"
+  description: "Rhythm and blues with soul and pop influences"
+
+soul:
+  en: "soul"
+  description: "Emotionally expressive vocal music with gospel roots"
+
+funk:
+  en: "funk"
+  description: "Groove-heavy bass-driven rhythmic music"
+
+# ─── ПРОЧЕЕ ───────────────────────────────────────────────────────────────────
+folk:
+  en: "folk"
+  description: "Acoustic storytelling tradition"
+
+country:
+  en: "country"
+  description: "American country music with twang guitar"
+
+reggae:
+  en: "reggae"
+  description: "Jamaican off-beat rhythmic style"
+
+latin:
+  en: "latin"
+  description: "Latin rhythms including salsa, bossa nova, and cumbia"
+
+bossa_nova:
+  en: "bossa nova"
+  description: "Soft Brazilian jazz-samba fusion"
+
+world:
+  en: "world music"
+  description: "Global traditional and fusion music styles"
+
+gospel:
+  en: "gospel"
+  description: "Uplifting Christian music with powerful vocals and choir"
+
+new_age:
+  en: "new age"
+  description: "Meditative, healing, gentle instrumental music"

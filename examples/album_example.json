@@ -1,0 +1,44 @@
+{
+  "_comment": "Пример структуры альбома для будущей команды `suno-prompt album`.",
+  "_version": "1.0",
+
+  "theme": "Cyberpunk Night",
+
+  "base_params": {
+    "genre": "darksynth",
+    "tempo": 110,
+    "vocal_type": "vocoder",
+    "production": "cinematic"
+  },
+
+  "tracks": [
+    {
+      "title": "Neon Rain",
+      "mood": "melancholic",
+      "instruments": ["synth_pad", "drum_machine"],
+      "energy": "chill",
+      "hints": ["intro", "verse", "chorus"]
+    },
+    {
+      "title": "Chase Sequence",
+      "mood": "aggressive",
+      "instruments": ["synth_lead", "808_bass"],
+      "energy": "high",
+      "hints": ["verse", "breakdown", "drop"]
+    },
+    {
+      "title": "Ghost Protocol",
+      "mood": "mysterious",
+      "instruments": ["analog_synths", "arpeggiator", "gated_drums"],
+      "energy": "medium",
+      "hints": ["verse", "chorus", "bridge"]
+    },
+    {
+      "title": "Electric Cathedral",
+      "mood": "epic",
+      "instruments": ["moog_bass", "sequencer", "808_kick"],
+      "energy": "intense",
+      "hints": ["buildup", "drop", "outro"]
+    }
+  ]
+}

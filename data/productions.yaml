@@ -1,0 +1,16 @@
+raw:
+  en: "raw production"
+polished:
+  en: "polished production"
+vintage:
+  en: "vintage recording"
+modern:
+  en: "modern production"
+lo_fi_prod:
+  en: "lo-fi production"
+cinematic:
+  en: "cinematic production"
+minimalist:
+  en: "minimalist production"
+layered:
+  en: "layered production"

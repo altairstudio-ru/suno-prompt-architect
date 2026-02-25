@@ -1,0 +1,80 @@
+# ─── БЕЗ ВОКАЛА ───────────────────────────────────────────────────────────────
+no_vocals:
+  en: "instrumental"
+  description: "No vocals, purely instrumental track"
+
+# ─── МУЖСКОЙ ВОКАЛ ────────────────────────────────────────────────────────────
+male_tenor:
+  en: "male tenor vocals"
+  description: "High male voice, bright and powerful"
+
+male_baritone:
+  en: "male baritone vocals"
+  description: "Mid-range male voice, warm and rich"
+
+male_bass:
+  en: "male bass vocals"
+  description: "Deep, resonant low male voice"
+
+male_falsetto:
+  en: "male falsetto vocals"
+  description: "High, breathy upper-register male voice"
+
+# ─── ЖЕНСКИЙ ВОКАЛ ────────────────────────────────────────────────────────────
+female_soprano:
+  en: "female soprano vocals"
+  description: "High, bright female voice"
+
+female_alto:
+  en: "female alto vocals"
+  description: "Low, warm, rich female voice"
+
+female_mezzo:
+  en: "female mezzo-soprano vocals"
+  description: "Mid-range female voice, balanced and full"
+
+ethereal_female:
+  en: "ethereal female vocals"
+  description: "Airy, otherworldly, reverb-drenched female voice"
+
+# ─── СТИЛИЗОВАННЫЙ ВОКАЛ ─────────────────────────────────────────────────────
+rap:
+  en: "rap vocals"
+  description: "Rhythmic spoken-word hip hop delivery"
+
+trap_vocals:
+  en: "trap vocals"
+  description: "Auto-tuned melodic trap singing and rap"
+
+whisper:
+  en: "whispered vocals"
+  description: "Soft, intimate, close-mic whisper"
+
+operatic:
+  en: "operatic vocals"
+  description: "Classical trained operatic projection"
+
+choir:
+  en: "choir vocals"
+  description: "Full choral ensemble, SATB voices"
+
+gospel_choir:
+  en: "gospel choir vocals"
+  description: "Powerful, spirited gospel ensemble"
+
+# ─── ОБРАБОТАННЫЙ / ОСОБЫЙ ВОКАЛ ─────────────────────────────────────────────
+vocoder:
+  en: "vocoder vocals"
+  description: "Robotic, synthesized voice effect"
+
+autotune:
+  en: "auto-tuned vocals"
+  description: "Pitch-corrected melodic vocals"
+
+harmonized:
+  en: "harmonized vocals"
+  description: "Multi-layered vocal harmonies"
+
+spoken_word:
+  en: "spoken word"
+  description: "Non-sung narrative or poetic delivery"
