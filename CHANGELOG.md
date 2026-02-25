@@ -1,7 +1,41 @@
 # Changelog
 
-Все значимые изменения проекта документируются здесь.
-Формат основан на [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/).
+## [1.1.0] — 2025-02-25
+
+### Добавлено
+
+#### Команда `album`
+Пакетная генерация промтов для всех треков альбома из одного JSON/YAML-файла.
+`base_params` автоматически мержатся с индивидуальными параметрами каждого трека.
+
+```bash
+python3 cli.py album --file examples/album_example.json
+python3 cli.py album --file examples/album_example.json --output prompts.txt
+python3 cli.py album --file examples/album_example.json --format json
+```
+
+#### Команда `variation`
+A/B-тестирование: генерация нескольких вариантов промта с изменением одного параметра.
+Поддерживаемые параметры для вариации: `mood`, `energy`, `vocal_type`, `production`, `instruments`.
+
+```bash
+python3 cli.py variation --genre synthwave --mood nostalgic --tempo 100 \
+  --vocal-type male_tenor --vary mood --values "peaceful,dark,epic"
+```
+
+#### Флаг `--copy`
+Копирование готового промта (или всех промтов альбома/вариаций) в буфер обмена.
+Поддерживаются Windows (`clip`), macOS (`pbcopy`), Linux (`xclip` / `xsel`).
+Доступен в командах `generate`, `album`, `variation`.
+
+```bash
+python3 cli.py generate --genre lo_fi --mood peaceful --tempo 80 \
+  --vocal-type no_vocals --copy
+```
+
+### Изменено
+- `cli.py` рефакторинг: общая логика вынесена в хелперы `_build_prompt_input()`,
+  `_print_result()`, `_copy_to_clipboard()`
 
 ---
 
@@ -9,44 +43,18 @@
 
 ### Первый публичный релиз
 
-#### Добавлено
-- **`core/engine.py`** — детерминированный алгоритм генерации промтов с приоритетной обрезкой до 200 символов
-- **`core/models.py`** — `PromptInput`: валидация и нормализация входных данных без внешних зависимостей
-- **`core/loader.py`** — загрузчик YAML-словарей с `lru_cache`; функция `load_input_file()` с поддержкой `.yaml`, `.yml`, `.json`
-- **`cli.py`** — CLI на Click: команды `generate` и `list`
-  - `--genre`, `--mood`, `--tempo`, `--vocal-type` (обязательные)
-  - `--instrument` (повторяемый, максимум 3)
-  - `--energy` с валидацией через `click.Choice`
-  - `--production` с валидацией через `click.Choice`
-  - `--hint` (повторяемый) для структурных намёков
-  - `--format text|json` для выбора формата вывода
-  - `--from-file` для загрузки параметров из YAML/JSON
-- **`api.py`** — опциональный FastAPI-сервер: `POST /generate`, `GET /health`, Swagger UI
-- **`data/genres.yaml`** — 67 жанров (электроника, рок, поп, джаз, оркестр, хип-хоп и др.)
-- **`data/moods.yaml`** — 33 настроения (позитивные, меланхоличные, тёмные, атмосферные)
-- **`data/instruments.yaml`** — 53 инструмента, включая `analog_synths`, `moog_bass`, `orchestral_strings`, `gated_drums`, `arpeggiator`, `808_kick`
-- **`data/vocal_types.yaml`** — 19 типов вокала, включая `ethereal_female`, `gospel_choir`, `vocoder`, `harmonized`
-- **`data/energies.yaml`** — 6 уровней энергии
-- **`data/productions.yaml`** — 8 стилей продакшна
-- **`examples/album_example.json`** — пример структуры альбома "Cyberpunk Night" (4 трека с `base_params`)
-- **`tests/test_engine.py`** — 5 acceptance тестов (TC1–TC5) + 3 бонусных
-
-#### Алгоритм приоритетов (P1–P6)
-```
-P1: Жанр, Настроение, Темп          — никогда не отбрасываются
-P2: Тип вокала                      — критично
-P3: Инструменты (до 3, через "and") — высокое влияние
-P4: Энергия                         — среднее
-P5: Стиль продакшна                 — среднее
-P6: Структурные намёки              — первыми отбрасываются
-```
+- Детерминированный алгоритм генерации промтов (P1–P6), лимит 200 символов
+- CLI (Click): команды `generate`, `list`
+- Загрузка из файла: `.yaml`, `.yml`, `.json`
+- Web API (FastAPI): `POST /generate`, `GET /health`
+- Словари: 67 жанров, 33 настроения, 53 инструмента, 19 типов вокала
+- Тесты: TC1–TC5 + 3 бонусных
 
 ---
 
 ## [Unreleased]
 
 ### Запланировано
-- Команда `album` — пакетная генерация из JSON-файла альбома
-- Команда `ab-test` — варианты одного трека с заданными отличиями
 - Флаги `--era` и `--region` для временного и регионального колорита
+- Web UI (FastAPI + HTMX) — генерация в браузере без терминала
 - Интеграция с Suno API
