@@ -1,0 +1,28 @@
+{
+  "vocal_types": {
+    "male_baritone": {
+      "label": "male baritone",
+      "delivery": "deep, resonant"
+    },
+    "male_tenor": {
+      "label": "male tenor",
+      "delivery": "clear, emotional"
+    },
+    "female_alto": {
+      "label": "female alto",
+      "delivery": "warm, rich"
+    },
+    "female_soprano": {
+      "label": "female soprano",
+      "delivery": "bright, powerful"
+    },
+    "choir": {
+      "label": "choir vocals",
+      "delivery": "layered, harmonized"
+    },
+    "no_vocal": {
+      "label": null,
+      "delivery": null
+    }
+  }
+}

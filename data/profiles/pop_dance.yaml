@@ -1,0 +1,30 @@
+id: pop_dance
+name: "Pop Dance"
+bpm_range: [118, 135]
+energy_default: 4
+
+instruments:
+  - "synthesizer leads"
+  - "four-on-the-floor kick"
+  - "sidechained bass"
+  - "bright arpeggios"
+
+effects:
+  - "heavy compression"
+  - "stereo widening"
+  - "sidechain pumping"
+
+style_anchor: "upbeat electronic dance, club-ready mix, bright pop production"
+
+vocal_defaults:
+  preferred: "female_soprano"
+  delivery: "bright, energetic"
+
+mood_tags:
+  euphoric: ["bright synths", "driving beat"]
+  intense: ["layered hooks", "dense mix"]
+  uplifting: ["major key", "rising chords"]
+
+conflicts:
+  energy_min: 3
+  forbidden_moods: ["melancholic", "dark", "ambient"]

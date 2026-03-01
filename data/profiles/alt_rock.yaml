@@ -1,0 +1,30 @@
+id: alt_rock
+name: "Alternative Rock"
+bpm_range: [100, 145]
+energy_default: 3
+
+instruments:
+  - "distorted electric guitar"
+  - "bass guitar"
+  - "live drums"
+  - "rhythm guitar"
+
+effects:
+  - "mid-range compression"
+  - "room reverb"
+  - "guitar overdrive"
+
+style_anchor: "alternative rock, dynamic contrast, raw guitar-driven sound"
+
+vocal_defaults:
+  preferred: "male_tenor"
+  delivery: "raw, emotional"
+
+mood_tags:
+  tense: ["power chords", "driving rhythm"]
+  melancholic: ["clean guitar", "dynamic contrast"]
+  aggressive: ["heavy distortion", "fast tempo"]
+
+conflicts:
+  energy_min: 2
+  forbidden_moods: ["peaceful", "ambient"]

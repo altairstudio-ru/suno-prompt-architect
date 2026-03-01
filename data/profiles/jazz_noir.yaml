@@ -1,0 +1,30 @@
+id: jazz_noir
+name: "Jazz Noir"
+bpm_range: [60, 100]
+energy_default: 1
+
+instruments:
+  - "upright bass"
+  - "jazz piano"
+  - "brushed drums"
+  - "muted trumpet"
+
+effects:
+  - "room ambience"
+  - "vintage warmth"
+  - "subtle vinyl crackle"
+
+style_anchor: "cinematic jazz, noir atmosphere, late-night intimate sound"
+
+vocal_defaults:
+  preferred: "female_alto"
+  delivery: "smoky, expressive"
+
+mood_tags:
+  melancholic: ["minor jazz chords", "slow tempo"]
+  nostalgic: ["vintage tone", "warm bass"]
+  tense: ["chromatic lines", "sparse rhythm"]
+
+conflicts:
+  energy_max: 2
+  forbidden_moods: ["aggressive", "euphoric", "intense"]

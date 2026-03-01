@@ -1,0 +1,30 @@
+id: darksynth
+name: "Dark Synth"
+bpm_range: [120, 150]
+energy_default: 4
+
+instruments:
+  - "distorted synth bass"
+  - "industrial drums"
+  - "dark synth leads"
+  - "atmospheric pads"
+
+effects:
+  - "heavy compression"
+  - "distortion"
+  - "dark reverb"
+
+style_anchor: "dark electronic, industrial atmosphere, aggressive synth-driven sound"
+
+vocal_defaults:
+  preferred: "male_baritone"
+  delivery: "aggressive, processed"
+
+mood_tags:
+  aggressive: ["driving rhythm", "heavy bass"]
+  tense: ["dissonant chords", "staccato synths"]
+  dark: ["minor key", "ominous pads"]
+
+conflicts:
+  energy_min: 2
+  forbidden_moods: ["peaceful", "uplifting", "romantic"]

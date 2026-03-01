@@ -1,0 +1,30 @@
+id: hyperpop
+name: "Hyperpop"
+bpm_range: [140, 180]
+energy_default: 5
+
+instruments:
+  - "pitched-up synths"
+  - "distorted 808 bass"
+  - "glitchy percussion"
+  - "digital arpeggios"
+
+effects:
+  - "heavy pitch correction"
+  - "glitch effects"
+  - "maximalist compression"
+
+style_anchor: "maximalist digital pop, glitchy production, hyperactive energy"
+
+vocal_defaults:
+  preferred: "female_soprano"
+  delivery: "pitch-shifted, processed"
+
+mood_tags:
+  euphoric: ["bright synths", "fast arpeggio"]
+  aggressive: ["distorted bass", "glitch rhythm"]
+  intense: ["layered vocals", "dense mix"]
+
+conflicts:
+  energy_min: 3
+  forbidden_moods: ["peaceful", "melancholic", "ambient"]

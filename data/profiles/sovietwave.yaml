@@ -1,0 +1,30 @@
+id: sovietwave
+name: "Soviet Wave"
+bpm_range: [90, 120]
+energy_default: 2
+
+instruments:
+  - "analog synth bass"
+  - "Juno-60 pads"
+  - "TR-808 drums"
+  - "clean chorus guitar"
+
+effects:
+  - "heavy reverb"
+  - "tape saturation"
+  - "lo-fi mix"
+
+style_anchor: "minimalist post-punk, cold wave atmosphere, monotone emotional delivery"
+
+vocal_defaults:
+  preferred: "male_baritone"
+  delivery: "dry, detached"
+
+mood_tags:
+  melancholic: ["minor key", "slow chord progression"]
+  tense: ["staccato rhythm", "sparse arrangement"]
+  nostalgic: ["vintage synth tones", "distant reverb"]
+
+conflicts:
+  energy_max: 3
+  forbidden_moods: ["euphoric", "uplifting", "aggressive"]

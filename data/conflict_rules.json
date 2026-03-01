@@ -1,0 +1,21 @@
+{
+  "energy_mood_conflicts": {
+    "incompatible": [
+      {"energy_max": 2, "forbidden_moods": ["euphoric", "aggressive", "intense"]},
+      {"energy_min": 4, "forbidden_moods": ["peaceful", "melancholic", "ambient"]}
+    ]
+  },
+  "genre_energy_limits": {
+    "sovietwave": {"energy_max": 3},
+    "jazz_noir":  {"energy_max": 2},
+    "indie_folk": {"energy_max": 3},
+    "hyperpop":   {"energy_min": 3},
+    "darksynth":  {"energy_min": 2},
+    "alt_rock":   {"energy_min": 2},
+    "pop_dance":  {"energy_min": 3}
+  },
+  "vocal_genre_conflicts": [
+    {"vocal_type": "choir", "forbidden_genres": ["hyperpop", "darksynth"]},
+    {"vocal_type": "no_vocal", "forbidden_genres": []}
+  ]
+}

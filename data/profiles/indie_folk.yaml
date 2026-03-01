@@ -1,0 +1,30 @@
+id: indie_folk
+name: "Indie Folk"
+bpm_range: [70, 110]
+energy_default: 2
+
+instruments:
+  - "acoustic guitar"
+  - "fingerpicked strings"
+  - "light percussion"
+  - "acoustic bass"
+
+effects:
+  - "warm room reverb"
+  - "subtle tape warmth"
+  - "natural dynamics"
+
+style_anchor: "organic acoustic sound, intimate atmosphere, natural production"
+
+vocal_defaults:
+  preferred: "male_tenor"
+  delivery: "warm, intimate"
+
+mood_tags:
+  melancholic: ["minor key", "sparse arrangement"]
+  nostalgic: ["fingerpicked guitar", "warm tones"]
+  peaceful: ["gentle rhythm", "open chords"]
+
+conflicts:
+  energy_max: 3
+  forbidden_moods: ["aggressive", "intense", "euphoric"]

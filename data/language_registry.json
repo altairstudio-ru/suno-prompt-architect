@@ -1,0 +1,30 @@
+{
+  "default": "ru",
+  "languages": {
+    "ru": {
+      "label": "Russian",
+      "style_suffix": "lyrics in Russian",
+      "vocal_prefix": "Russian vocal"
+    },
+    "en": {
+      "label": "English",
+      "style_suffix": "lyrics in English",
+      "vocal_prefix": "English vocal"
+    },
+    "es": {
+      "label": "Spanish",
+      "style_suffix": "lyrics in Spanish",
+      "vocal_prefix": "Spanish vocal"
+    },
+    "fr": {
+      "label": "French",
+      "style_suffix": "lyrics in French",
+      "vocal_prefix": "French vocal"
+    },
+    "de": {
+      "label": "German",
+      "style_suffix": "lyrics in German",
+      "vocal_prefix": "German vocal"
+    }
+  }
+}
